@@ -1,0 +1,36 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ecf0f1;
+  margin: 0.5px;
+}
+
+.navbar {
+    z-index: 1;
+    top: 0%;
+    position: sticky;
+  background-color: #2c3e50;
+  height: 6rem;
+}
+
+a {
+  color: white;
+}
+
+.butonclick {
+  display: inline-block;
+  margin-right: 6vw;
+  padding: 0.7rem;
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
+.butonclick:hover {
+    background-color: rgba(0, 0, 0, 0.148);
+    border-radius: 10px;
+}
